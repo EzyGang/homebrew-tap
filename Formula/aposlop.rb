@@ -5,31 +5,31 @@
 class Aposlop < Formula
   desc "Fast duplicate-code and complexity analysis for agent-generated code"
   homepage "https://github.com/EzyGang/aposlop"
-  url "https://github.com/EzyGang/aposlop/archive/refs/tags/v1.1.2.tar.gz"
-  sha256 "7f90710cb9d62cc0ebdb397f262994b8e93f182543efb9412e238e0afb94602d"
+  url "https://github.com/EzyGang/aposlop/archive/refs/tags/v1.1.3.tar.gz"
+  sha256 "16f234d8a62ca22deb44bc1b13f52fc288457a34255c5ec8cfc0800aee940fad"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/EzyGang/aposlop/releases/download/v1.1.2/aposlop-1.1.2-darwin-amd64.tar.gz"
-      sha256 "779c7875eb0527c90335c5b9b1b4b20e7fc0a84664ca2463a06b6b53b14d043c"
+      url "https://github.com/EzyGang/aposlop/releases/download/v1.1.3/aposlop-1.1.3-darwin-amd64.tar.gz"
+      sha256 "abc6bb73a349282a7be47d1e017c02c1e2033de544ba509973752196748ba2f2"
     end
 
     on_arm do
-      url "https://github.com/EzyGang/aposlop/releases/download/v1.1.2/aposlop-1.1.2-darwin-arm64.tar.gz"
-      sha256 "afeb5453c2e23f8b4361454d91dc54e66b03dc9b051296a870411d3bd5b91859"
+      url "https://github.com/EzyGang/aposlop/releases/download/v1.1.3/aposlop-1.1.3-darwin-arm64.tar.gz"
+      sha256 "e82bf1f9f5f576c8e75a5f4540ced3b48a37ec191b97fd07261793661f087d75"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/EzyGang/aposlop/releases/download/v1.1.2/aposlop-1.1.2-linux-amd64.tar.gz"
-      sha256 "cb2416eee6f59108bb283c3e3c6aedf44aebdc0335f57c29c8cb2040b5fe3d0e"
+      url "https://github.com/EzyGang/aposlop/releases/download/v1.1.3/aposlop-1.1.3-linux-amd64.tar.gz"
+      sha256 "d14b5bb1e2ccb7f7bcd6418ba8c0da6fbf762a9a3d3371cfeb675d31669d74a4"
     end
 
     on_arm do
-      url "https://github.com/EzyGang/aposlop/releases/download/v1.1.2/aposlop-1.1.2-linux-arm64.tar.gz"
-      sha256 "ac6c9d7fd0eced1e1938daf43b1c688dffe84698f40cb20798e8e4a30df72d22"
+      url "https://github.com/EzyGang/aposlop/releases/download/v1.1.3/aposlop-1.1.3-linux-arm64.tar.gz"
+      sha256 "3e502db3a4034f04ad2df9287fe95474c6c3b6ace093315e031ad5eebda52d70"
     end
   end
 
